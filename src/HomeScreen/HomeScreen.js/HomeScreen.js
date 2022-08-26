@@ -24,6 +24,7 @@ export default function HomeScreen() {
         <Button title='EDIT' onPress={() => {
           dispatch(editmodalopen(true))
           dispatch(index(index))
+          //ADI
         }} />
         
         <Button title='DELETE'  />
